@@ -11,8 +11,11 @@ public class HibernateUtil {
 
     private static SessionFactory buildSessionFactory() {
         try {
-            return new Configuration().configure().buildSessionFactory();
+            SessionFactory factory = new Configuration().configure().buildSessionFactory();
+            logger.info("SessionFactory успешно инициализирована");
+            return factory;
         } catch (Throwable e) {
+            logger.error("Ошибка при инициализации SessionFactory", e);
             throw new ExceptionInInitializerError(e);
         }
     }
@@ -24,6 +27,7 @@ public class HibernateUtil {
     public static void shutdown() {
         if (sessionFactory != null) {
             sessionFactory.close();
+            logger.info("SessionFactory успешно закрыта");
         }
     }
 }
