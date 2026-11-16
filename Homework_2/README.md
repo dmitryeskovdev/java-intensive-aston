@@ -7,4 +7,18 @@
 ## Используется SLF4J + Logback для логирования 
 
 ### Результат работы программы:
-![Результат работы](screenshot.png)
+
+### Добавление пользователей:
+![Добавление пользователей](screenshots/screenshot_create.png)
+
+### Поиск пользователей по фильтрам:
+![Поиск пользователей по фильтрам](screenshots/screenshot_search.png)
+
+### Обновление данных пользователей:
+![Обновление данных пользователей](screenshots/screenshot_update.png)
+
+### Удаление пользователей:
+![Удаление пользователей](screenshots/screenshot_delete.png)
+
+### Логи работы
+![Логи работы](screenshots/screenshot_logs.png)
