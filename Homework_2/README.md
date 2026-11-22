@@ -22,3 +22,21 @@
 
 ### Логи работы
 ![Логи работы](screenshots/screenshot_logs.png)
+
+
+# Домашнее задание №3
+## Создание юнит-тестов и интеграционных тестов для User Service
+
+## Используется JUnit 5, Mockito и Testcontainers
+## Тесты запускаются изолированно друг от друга
+
+### Результат работы тестов:
+
+### Запуск тестов в режиме Debug. Процесс IDEA
+![Запуск тестов в режиме Debug](screenshots/SCREENSHOT_TEST_DEBUG_IDEA.png)
+
+### Запуск тестов в режиме Debug. Процесс Docker Desktop
+![Запуск тестов в режиме Debug](screenshots/SCREENSHOT_TEST_DEBUG_DOCKER_RUN.png)
+
+### Запуск тестов. Интеграционные + Unit:
+![Запуск тестов All](screenshots/SCREENSHOT_TEST_RUN_TEST_ALL.png)
